@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-s3vectors`](https://www.npmjs.com/package/@aws-sdk/client-s3vectors/v/3.1048.0).
+[`@aws-sdk/client-s3vectors`](https://www.npmjs.com/package/@aws-sdk/client-s3vectors/v/3.1049.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-s3vectors - [https://cloud-sdk-builds.github.io/?sdk=client-s3vectors](https://cloud-sdk-builds.github.io/?sdk=client-s3vectors)
-- @aws-sdk/client-s3vectors v3.1048.0 - [https://cloud-sdk-builds.github.io/?sdk=client-s3vectors&version=3.1048.0](https://cloud-sdk-builds.github.io/?sdk=client-s3vectors&version=3.1048.0)
+- @aws-sdk/client-s3vectors v3.1049.0 - [https://cloud-sdk-builds.github.io/?sdk=client-s3vectors&version=3.1049.0](https://cloud-sdk-builds.github.io/?sdk=client-s3vectors&version=3.1049.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3vectors@3.1048.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3vectors@3.1049.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-6tpHU4UMyQSp3rRshnw9NngcyeBxdXR/9Ukq4RtNaVTfBTNSlq1u3jJ5+BwatIQt
+sha384-Alv+X+91sGKFEv6XM4Y3sP1Q0H9g2kqcmfUng0Xvy1rfpmnsHeZqpI2sn2t5c4Iq
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-s3vectors": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3vectors@3.1048.0/index.min.mjs"
+            "@aws-sdk/client-s3vectors": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3vectors@3.1049.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3vectors@3.1048.0/index.min.mjs": "sha384-6tpHU4UMyQSp3rRshnw9NngcyeBxdXR/9Ukq4RtNaVTfBTNSlq1u3jJ5+BwatIQt"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3vectors@3.1049.0/index.min.mjs": "sha384-Alv+X+91sGKFEv6XM4Y3sP1Q0H9g2kqcmfUng0Xvy1rfpmnsHeZqpI2sn2t5c4Iq"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-s3vectors": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3vectors@3.1048.0/index.min.mjs"
+                        "@aws-sdk/client-s3vectors": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3vectors@3.1049.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3vectors@3.1048.0/index.min.mjs": "sha384-6tpHU4UMyQSp3rRshnw9NngcyeBxdXR/9Ukq4RtNaVTfBTNSlq1u3jJ5+BwatIQt"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3vectors@3.1049.0/index.min.mjs": "sha384-Alv+X+91sGKFEv6XM4Y3sP1Q0H9g2kqcmfUng0Xvy1rfpmnsHeZqpI2sn2t5c4Iq"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1048.0`)
+* Always pin to a specific version (`@3.1049.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-s3vectors/blob/refs/tags/3.1048.0/LICENSE
+https://github.com/cloud-sdk-builds/client-s3vectors/blob/refs/tags/3.1049.0/LICENSE
 ```
 
 ---
